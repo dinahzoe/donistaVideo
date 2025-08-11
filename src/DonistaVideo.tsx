@@ -6,20 +6,21 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Logo } from "./HelloWorld/Logo";
-import { Subtitle } from "./HelloWorld/Subtitle";
-import { Title } from "./HelloWorld/Title";
+import { Logo } from "./DonistaVideo/Logo";
+import { Subtitle } from "./DonistaVideo/Subtitle";
+import { Title } from "./DonistaVideo/Title";
 import { z } from "zod";
 import { zColor } from "@remotion/zod-types";
 
-export const myCompSchema = z.object({
+export const donistaVideoSchema = z.object({
   titleText: z.string(),
   titleColor: zColor(),
   logoColor1: zColor(),
   logoColor2: zColor(),
 });
 
-export const HelloWorld: React.FC<z.infer<typeof myCompSchema>> = ({
+
+export const DonistaVideo: React.FC<z.infer<typeof donistaVideoSchema>> = ({
   titleText: propOne,
   titleColor: propTwo,
   logoColor1,
