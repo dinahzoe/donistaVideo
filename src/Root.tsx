@@ -1,6 +1,7 @@
 import { Composition } from "remotion";
 import { DonationScene } from "./DonistaVideo";
-import { DonationScene2 } from "./DonistaVideo2";
+import { DonistaVideo2 } from "./DonistaVideo2";
+import { DonistaVideo3 } from "./DonistaVideo3";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -16,8 +17,17 @@ export const RemotionRoot: React.FC = () => {
 
       <Composition
         id="DonistaVideo2"
-        component={DonationScene2}
+        component={DonistaVideo2}
         durationInFrames={30 * 5}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      <Composition
+        id="DonistaVideo3"
+        component={DonistaVideo3}
+        durationInFrames={30 * 8}
         fps={30}
         width={1080}
         height={1920}
