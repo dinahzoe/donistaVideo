@@ -1,8 +1,8 @@
 import { Composition } from "remotion";
-import { DonationScene } from "./DonistaVideo";
-import { DonistaVideo2 } from "./DonistaVideo2";
-import { DonistaVideo3 } from "./DonistaVideo3";
-import { DonistaVideo4 } from "./DonistaVideo4"; // <--- NEU
+import { DonationScene } from "./DonsitaDonationMonitor";
+import { DonistaVideo2 } from "./DonsitaSchoolCampaign";
+import { DonistaVideo3 } from "./DonsitaDonationCountdown";
+import { DonistaVideo4 } from "./DonsitaMascotSpeech"; // <--- NEU
 
 export const RemotionRoot: React.FC = () => {
   return (
