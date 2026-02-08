@@ -10,16 +10,16 @@ Using Remotion, I built multiple small video clips to test different formats, la
 
 ## Videos
 
-* **DonsitaVideo**
+* **DonsitaDonationMonitor**
   A short video showing a monitor with donation information, designed for awareness and engagement.
 
-* **DonsitaVideo2**
+* **DonsitaSchoolCampaign**
   Created for a school campaign promoting the sale of books and related items.
 
-* **DonsitaVideo3**
+* **DonsitaDonationCountdown**
   A donation countdown video to highlight urgency and encourage participation.
 
-* **DonsitaVideo4**
+* **DonsitaMascotSpeech**
   Features our mascot with a speech bubble presenting different messages in a playful and engaging way.
 
 ## Technologies Used
