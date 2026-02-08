@@ -1,4 +1,4 @@
-# Remotion Video Experiments – README
+# Remotion Video Experiments 
 
 ## Overview
 
