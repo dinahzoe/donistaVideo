@@ -1,54 +1,33 @@
-# Remotion video
+# Remotion Video Experiments – README
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.gif">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+## Overview
 
-Welcome to your Remotion project!
+This project contains several short videos created with Remotion as part of personal experimentation and for use on social media. The goal was to explore programmatic video creation, animation, and simple storytelling concepts.
 
-## Commands
+## Project Description
 
-**Install Dependencies**
+Using Remotion, I built multiple small video clips to test different formats, layouts, and animated elements such as text, countdowns, and characters.
 
-```console
-npm i
-```
+## Videos
 
-**Start Preview**
+* **DonsitaVideo**
+  A short video showing a monitor with donation information, designed for awareness and engagement.
 
-```console
-npm run dev
-```
+* **DonsitaVideo2**
+  Created for a school campaign promoting the sale of books and related items.
 
-**Render video**
+* **DonsitaVideo3**
+  A donation countdown video to highlight urgency and encourage participation.
 
-```console
-npx remotion render
-```
+* **DonsitaVideo4**
+  Features our mascot with a speech bubble presenting different messages in a playful and engaging way.
 
-**Upgrade Remotion**
+## Technologies Used
 
-```console
-npx remotion upgrade
-```
+* Remotion
+* React
+* JavaScript
 
-## Docs
+## Purpose
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+This project was created to experiment with automated video generation, animation, and social media content design using code.
